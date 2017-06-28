@@ -10,7 +10,7 @@ using Scarlet.IO;
 
 namespace Scarlet.IO.ImageFormats
 {
-    [MagicNumber("SHTXFS", 0x00)]
+    [MagicNumber("SHTXF", 0x00)]
     public class SHTXFS : ImageFormat
     {
         public string Tag { get; private set; }
